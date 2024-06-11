@@ -1,14 +1,14 @@
 console.log("Hello from blog-listing.js!");
 
-function fromDateToString(dateValue: Date) {
-  let date = new Date(dateValue);
-  const options: Intl.DateTimeFormatOptions = {
-    year: 'numeric',
-    month: 'short',
-    day: 'numeric'
-  };
-  const formattedDate: string = date.toLocaleDateString('en-US', options);
-  return formattedDate;
+function fromDateToString(dateValue) {
+  let date = new Date(dateValue)
+  const options = {
+    year: "numeric",
+    month: "short",
+    day: "numeric"
+  }
+  const formattedDate = date.toLocaleDateString("en-US", options)
+  return formattedDate
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
