@@ -1,11 +1,16 @@
 console.log("Hello from blog-listing.js!");
-console.log();
-function fromDateToString(dateValue) {
-    let date = new Date(dateValue);
-    date.setTime(date.getTime() - date.getTimezoneOffset() * 60000);
-    let dateAsString = date.toISOString().substr(0, 10);
-    return dateAsString;
+
+function fromDateToString(dateValue: Date) {
+  let date = new Date(dateValue);
+  const options: Intl.DateTimeFormatOptions = {
+    year: 'numeric',
+    month: 'short',
+    day: 'numeric'
+  };
+  const formattedDate: string = date.toLocaleDateString('en-US', options);
+  return formattedDate;
 }
+
 document.addEventListener("DOMContentLoaded", (event) => {
     var dropDownDiv = document.getElementById("custom-select");
     var blogListDiv = document.getElementById("blogListContent");
