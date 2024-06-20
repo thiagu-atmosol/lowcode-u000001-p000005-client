@@ -50,20 +50,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
                             + '</defs>'
                         +'</svg> ' + fromDateToString('2024-06-18T08:52:17.8745577') + '</small> '
                     + '<h3 class="blog-title">' + 'Building and Design Industry' + '</h3>'
-                + '</div>'
                 + '<div class="related-links">'
-                + '<div><span>Related Links</span></div>'
-                + '<ul id="relatedlinks-1">'
-                
-                    + '<li>https://www.lhrtimes.com/2024/06/13/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
-                
-                    + '<li>https://sme.asia/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
-                
-                    + '<li>https://hr.asia/media-outreach/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
-                
-                + '</ul>'
+                    + '<div><span>Related Links</span></div>'
+                    + '<ul id="relatedlinks-1">'
+                        
+                            + '<li>https://www.lhrtimes.com/2024/06/13/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
+                        
+                            + '<li>https://sme.asia/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
+                        
+                            + '<li>https://hr.asia/media-outreach/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
+                        
+                    + '</ul>'
                 + '</div>' 
-                + '</div> </div>'
+                + '</div> </div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
@@ -87,20 +86,19 @@ document.addEventListener("DOMContentLoaded", (event) => {
                             + '</defs>'
                         +'</svg> ' + fromDateToString('2024-06-20T05:37:27.4227903') + '</small> '
                     + '<h3 class="blog-title">' + 'New E-commerce Business' + '</h3>'
-                + '</div>'
                 + '<div class="related-links">'
-                + '<div><span>Related Links</span></div>'
-                + '<ul id="relatedlinks-3">'
-                
-                    + '<li>https://www.investing.com/news/stock-market-news/earnings-call-lands-end-reports-mixed-q1-results-focuses-on-innovation-93CH-3472631</li>'
-                
-                    + '<li>https://uk.investing.com/news/stock-market-news/earnings-call-lands-end-reports-mixed-q1-results-focuses-on-innovation-93CH-3534261</li>'
-                
-                    + '<li>https://www.nasdaq.com/articles/costco-wholesale-cost-q3-2024-earnings-call-transcript</li>'
-                
-                + '</ul>'
+                    + '<div><span>Related Links</span></div>'
+                    + '<ul id="relatedlinks-3">'
+                        
+                            + '<li>https://www.investing.com/news/stock-market-news/earnings-call-lands-end-reports-mixed-q1-results-focuses-on-innovation-93CH-3472631</li>'
+                        
+                            + '<li>https://uk.investing.com/news/stock-market-news/earnings-call-lands-end-reports-mixed-q1-results-focuses-on-innovation-93CH-3534261</li>'
+                        
+                            + '<li>https://www.nasdaq.com/articles/costco-wholesale-cost-q3-2024-earnings-call-transcript</li>'
+                        
+                    + '</ul>'
                 + '</div>' 
-                + '</div> </div>'
+                + '</div> </div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
