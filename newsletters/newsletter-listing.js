@@ -11,18 +11,6 @@ function fromDateToString(dateValue) {
   return formattedDate
 }
 
-function addRelatedLinks(newsletter) {
-  let list = document.getElementById("relatedlinks-"+newsletter.id);
-  if(newsletter.newsletterSections){
-    for (let newsletterSection of newsletter.newsletterSections) {
-        var li = document.createElement('li');
-        li.innerText = newsletterSection.url;
-        list.appendChild(li);
-    }
-  }
-    
-}
-
 document.addEventListener("DOMContentLoaded", (event) => {
     var dropDownDiv = document.getElementById("custom-select");
     var newsletterListDiv = document.getElementById("newsletterListContent");
