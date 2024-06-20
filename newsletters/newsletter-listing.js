@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
     
     var dropDownData = '<option value="0">Select option:</option>';
     dropDownDiv.innerHTML += dropDownData;
-    var blogListData = "";
+    var newsletterListData = "";
     
         dropDownData = '<option value="' + 1 + '">' + 'Building and Design Industry' + '</option>'
 
@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 + '</div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
-        blogListDiv.innerHTML += blogListData;
+        newsletterListDiv.innerHTML += newsletterListData;
         addRelatedLinks(newsletter.newsletterSections)
     
         dropDownData = '<option value="' + 2 + '">' + 'New E-commerce Business' + '</option>'
@@ -85,7 +85,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 + '</div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
-        blogListDiv.innerHTML += blogListData;
+        newsletterListDiv.innerHTML += newsletterListData;
         addRelatedLinks(newsletter.newsletterSections)
     
 
