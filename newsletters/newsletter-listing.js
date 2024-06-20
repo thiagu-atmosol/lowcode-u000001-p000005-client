@@ -11,13 +11,16 @@ function fromDateToString(dateValue) {
   return formattedDate
 }
 
-function addRelatedLinks(newsletterSections) {
-  let list = document.getElementById("relatedlinks");
-    for (i = 0; i < newsletterSections.length; ++i) {
+function addRelatedLinks(newsletter) {
+  let list = document.getElementById("relatedlinks-"+newsletter.id);
+  if(newsletter.newsletterSections){
+    for (let newsletterSection of newsletter.newsletterSections) {
         var li = document.createElement('li');
-        li.innerText = newsletterSections[i].url;
+        li.innerText = newsletterSection.url;
         list.appendChild(li);
     }
+  }
+    
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
@@ -50,13 +53,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 + '</div>'
                 + '<div class="related-links">'
                 + '<div><span>Related Links</span></div>'
-                + '<ul id="relatedlinks"></ul>'
+                + '<ul id="relatedlinks-1"></ul>'
                 + '</div>' 
                 + '</div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
-        addRelatedLinks([object Object],[object Object],[object Object])
+        addRelatedLinks([object Object])
     
         dropDownData = '<option value="' + 2 + '">' + 'New E-commerce Business' + '</option>'
 
@@ -80,13 +83,13 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 + '</div>'
                 + '<div class="related-links">'
                 + '<div><span>Related Links</span></div>'
-                + '<ul id="relatedlinks"></ul>'
+                + '<ul id="relatedlinks-3"></ul>'
                 + '</div>' 
                 + '</div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
-        addRelatedLinks([object Object],[object Object],[object Object])
+        addRelatedLinks([object Object])
     
 
 });
