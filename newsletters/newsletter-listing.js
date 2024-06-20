@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                             + '</defs>'
                         +'</svg> ' + fromDateToString('2024-06-18T08:52:17.8745577') + '</small> '
                     + '<h3 class="blog-title">' + 'Building and Design Industry' + '</h3>'
-                + '</div>
+                + '</div>'
                 + '<div class="related-links">
                 + '<div><span>Related Links</span></div>'
                 + '<ul id="relatedlinks"></ul>'
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                             + '</defs>'
                         +'</svg> ' + fromDateToString('2024-06-20T05:37:27.4227903') + '</small> '
                     + '<h3 class="blog-title">' + 'New E-commerce Business' + '</h3>'
-                + '</div>
+                + '</div>'
                 + '<div class="related-links">
                 + '<div><span>Related Links</span></div>'
                 + '<ul id="relatedlinks"></ul>'
