@@ -1,5 +1,16 @@
 console.log("Hello from newsletter-listing.js!");
 
+function fromDateToString(dateValue) {
+  let date = new Date(dateValue)
+  const options = {
+    year: "numeric",
+    month: "short",
+    day: "numeric"
+  }
+  const formattedDate = date.toLocaleDateString("en-US", options)
+  return formattedDate
+}
+
 function addRelatedLinks(newsletterSections) {
   let list = document.getElementById("relatedlinks");
     for (i = 0; i < newsletterSections.length; ++i) {
@@ -37,7 +48,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                         +'</svg> ' + fromDateToString('2024-06-18T08:52:17.8745577') + '</small> '
                     + '<h3 class="blog-title">' + 'Building and Design Industry' + '</h3>'
                 + '</div>'
-                + '<div class="related-links">
+                + '<div class="related-links">'
                 + '<div><span>Related Links</span></div>'
                 + '<ul id="relatedlinks"></ul>'
                 + '</div>' 
@@ -67,7 +78,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                         +'</svg> ' + fromDateToString('2024-06-20T05:37:27.4227903') + '</small> '
                     + '<h3 class="blog-title">' + 'New E-commerce Business' + '</h3>'
                 + '</div>'
-                + '<div class="related-links">
+                + '<div class="related-links">'
                 + '<div><span>Related Links</span></div>'
                 + '<ul id="relatedlinks"></ul>'
                 + '</div>' 
