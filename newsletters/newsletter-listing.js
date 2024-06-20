@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
-        addRelatedLinks('[object Object]')
+        addRelatedLinks(newsletter)
     
         dropDownData = '<option value="' + 2 + '">' + 'New E-commerce Business' + '</option>'
 
@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
-        addRelatedLinks('[object Object]')
+        addRelatedLinks(newsletter)
     
 
 });
