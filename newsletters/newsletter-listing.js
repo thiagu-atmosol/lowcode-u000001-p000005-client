@@ -53,13 +53,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 + '</div>'
                 + '<div class="related-links">'
                 + '<div><span>Related Links</span></div>'
-                + '<ul id="relatedlinks-1"></ul>'
+                + '<ul id="relatedlinks-1">'
+                
+                    + '<li>https://www.lhrtimes.com/2024/06/13/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
+                
+                    + '<li>https://sme.asia/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
+                
+                    + '<li>https://hr.asia/media-outreach/bci-celebrates-the-best-in-hong-kongs-architecture-building-and-design-industry/</li>'
+                
+                + '</ul>'
                 + '</div>' 
                 + '</div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
-        addRelatedLinks(newsletter)
     
         dropDownData = '<option value="' + 2 + '">' + 'New E-commerce Business' + '</option>'
 
@@ -83,13 +90,20 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 + '</div>'
                 + '<div class="related-links">'
                 + '<div><span>Related Links</span></div>'
-                + '<ul id="relatedlinks-3"></ul>'
+                + '<ul id="relatedlinks-3">'
+                
+                    + '<li>https://www.investing.com/news/stock-market-news/earnings-call-lands-end-reports-mixed-q1-results-focuses-on-innovation-93CH-3472631</li>'
+                
+                    + '<li>https://uk.investing.com/news/stock-market-news/earnings-call-lands-end-reports-mixed-q1-results-focuses-on-innovation-93CH-3534261</li>'
+                
+                    + '<li>https://www.nasdaq.com/articles/costco-wholesale-cost-q3-2024-earnings-call-transcript</li>'
+                
+                + '</ul>'
                 + '</div>' 
                 + '</div> </div>'
 
         dropDownDiv.innerHTML += dropDownData;
         newsletterListDiv.innerHTML += newsletterListData;
-        addRelatedLinks(newsletter)
     
 
 });
