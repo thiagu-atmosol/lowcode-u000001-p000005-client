@@ -12,8 +12,8 @@ function fromDateToString(dateValue) {
 }
 
 document.addEventListener("DOMContentLoaded", (event) => {
-    var blogListDiv = document.getElementByTagName('body');
-    blogListDiv.innerHTML += '<section id="sectionID">
+    const domParser = new DOMParser();
+    const htmlElement = domParser.parseFromString(<section id="sectionID">
         <div class="spildy-blog-listing blog-listing-v1">
             <div class="blog-listing-bg blog-listing-tb-space">
                 <div class="spildy-container">
@@ -93,5 +93,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 </div>
             </div>
         </div>
-    </section>';
+    </section>, 'text/html');
+    var blogListDiv = document.getElementByTagName('body');
+    blogListDiv.innerHTML += htmlElement;
 });
