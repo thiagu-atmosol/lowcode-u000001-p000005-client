@@ -13,7 +13,7 @@ function fromDateToString(dateValue) {
 
 document.addEventListener("DOMContentLoaded", (event) => {
     var blogListDiv = document.getElementByTagName('body');
-    console.log(<section id="sectionID">
+    //console.log(<section id="sectionID">
         <div class="spildy-blog-listing blog-listing-v1">
             <div class="blog-listing-bg blog-listing-tb-space">
                 <div class="spildy-container">
@@ -94,7 +94,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
             </div>
         </div>
     </section>);
-    blogListDiv.innerHTML += <section id="sectionID">
+    blogListDiv.innerHTML += '<section id="sectionID">
         <div class="spildy-blog-listing blog-listing-v1">
             <div class="blog-listing-bg blog-listing-tb-space">
                 <div class="spildy-container">
@@ -174,5 +174,5 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 </div>
             </div>
         </div>
-    </section>;
+    </section>';
 });
