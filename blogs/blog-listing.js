@@ -14,53 +14,77 @@ function fromDateToString(dateValue) {
 document.addEventListener("DOMContentLoaded", (event) => {
     var blogListDiv = document.getElementById("blogListContent");
     blogListDiv.innerHTML = '<section id="sectionID">
-        <div class="spildy-blog-listing blog-listing-v2">
+        <div class="spildy-blog-listing blog-listing-v3">
             <div class="blog-listing-bg blog-listing-tb-space">
                 <div class="spildy-container">
                     <div class="row">
-                        <div class="col-12 col-sm-6 col-md-6 col-lg-4" id="blogRepeat">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-6" id="blogRepeat">
                             <div class="blog-listing-box">
-                                <div class="blog-listing-img">
-                                    <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
-                                </div>
-                                <div class="blog-listing-info">
-                                    <div class="title mb-3">How to Start a Small Textile Business: Tips for Fabric Suppliers and Manufacturers</div> 
-                                    <div class="description mb-3">If you\'re considering starting a small textile business, you\'re in the right place. Whether you want to become fabric suppliers for small businesses or start your own cloth manufacturing company, there are some key steps you need to take to...</div>                                                                   
-                                    <div class="name">By Username, LowCode- Jun 6, 2024</div>
-                                </div>                                
+                                <div class="row m-0">
+                                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 p-0">
+                                        <div class="blog-listing-img">
+                                            <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 p-0">
+                                        <div class="blog-listing-info">
+                                            <div class="title mb-3">How to Start a Small Textile Business: Tips for Fabric Suppliers and Manufacturers</div> 
+                                            <div class="description mb-3">If you\'re considering starting a small textile business, you\'re in the right place. Whether you want to become fabric suppliers for small businesses or start your own cloth manufacturing company, there are some key steps you need to take to...</div>
+                                            <div class="name">By Username, LowCode- Jun 6, 2024</div>
+                                        </div>
+                                    </div>
+                                </div>                       
                             </div>                            
-                        </div><div class="col-12 col-sm-6 col-md-6 col-lg-4" id="blogRepeat">
+                        </div><div class="col-12 col-sm-12 col-md-12 col-lg-6" id="blogRepeat">
                             <div class="blog-listing-box">
-                                <div class="blog-listing-img">
-                                    <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
-                                </div>
-                                <div class="blog-listing-info">
-                                    <div class="title mb-3">Finding the Perfect Gym Near You</div> 
-                                    <div class="description mb-3">Are you on the hunt for a new gym to join? With so many options available, it can be overwhelming to choose the right one. Whether you\'re looking for gyms near me or specific features like a sauna or childcare,...</div>                                                                   
-                                    <div class="name">By Username, LowCode- May 29, 2024</div>
-                                </div>                                
+                                <div class="row m-0">
+                                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 p-0">
+                                        <div class="blog-listing-img">
+                                            <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 p-0">
+                                        <div class="blog-listing-info">
+                                            <div class="title mb-3">Finding the Perfect Gym Near You</div> 
+                                            <div class="description mb-3">Are you on the hunt for a new gym to join? With so many options available, it can be overwhelming to choose the right one. Whether you\'re looking for gyms near me or specific features like a sauna or childcare,...</div>
+                                            <div class="name">By Username, LowCode- May 29, 2024</div>
+                                        </div>
+                                    </div>
+                                </div>                       
                             </div>                            
-                        </div><div class="col-12 col-sm-6 col-md-6 col-lg-4" id="blogRepeat">
+                        </div><div class="col-12 col-sm-12 col-md-12 col-lg-6" id="blogRepeat">
                             <div class="blog-listing-box">
-                                <div class="blog-listing-img">
-                                    <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
-                                </div>
-                                <div class="blog-listing-info">
-                                    <div class="title mb-3">Shop the Best Black Friday Deals on E-commerce Websites</div> 
-                                    <div class="description mb-3">Are you ready to score some amazing deals on Black Friday and Cyber Monday? Look no further than your favorite e-commerce websites! From laptops and phones to dresses and shoes, there\'s something for everyone on sale this year....</div>                                                                   
-                                    <div class="name">By Username, LowCode- Jun 11, 2024</div>
-                                </div>                                
+                                <div class="row m-0">
+                                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 p-0">
+                                        <div class="blog-listing-img">
+                                            <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 p-0">
+                                        <div class="blog-listing-info">
+                                            <div class="title mb-3">Shop the Best Black Friday Deals on E-commerce Websites</div> 
+                                            <div class="description mb-3">Are you ready to score some amazing deals on Black Friday and Cyber Monday? Look no further than your favorite e-commerce websites! From laptops and phones to dresses and shoes, there\'s something for everyone on sale this year....</div>
+                                            <div class="name">By Username, LowCode- Jun 11, 2024</div>
+                                        </div>
+                                    </div>
+                                </div>                       
                             </div>                            
-                        </div><div class="col-12 col-sm-6 col-md-6 col-lg-4" id="blogRepeat">
+                        </div><div class="col-12 col-sm-12 col-md-12 col-lg-6" id="blogRepeat">
                             <div class="blog-listing-box">
-                                <div class="blog-listing-img">
-                                    <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
-                                </div>
-                                <div class="blog-listing-info">
-                                    <div class="title mb-3">Understanding Risk and Reward in Crypto Currency Investment</div> 
-                                    <div class="description mb-3">Investing in crypto currency can be a lucrative endeavor, but it also comes with its own set of risks. The digital assets market is known for being volatile, with prices fluctuating wildly in a short period of time. This makes...</div>                                                                   
-                                    <div class="name">By Username, LowCode- Jul 2, 2024</div>
-                                </div>                                
+                                <div class="row m-0">
+                                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 p-0">
+                                        <div class="blog-listing-img">
+                                            <img class="image" src="https://atmosol.com/wp-content/uploads/2024/03/Headless-Composable-hero.webp" alt="Blog Image">
+                                        </div>
+                                    </div>
+                                    <div class="col-12 col-sm-8 col-md-8 col-lg-8 p-0">
+                                        <div class="blog-listing-info">
+                                            <div class="title mb-3">Understanding Risk and Reward in Crypto Currency Investment</div> 
+                                            <div class="description mb-3">Investing in crypto currency can be a lucrative endeavor, but it also comes with its own set of risks. The digital assets market is known for being volatile, with prices fluctuating wildly in a short period of time. This makes...</div>
+                                            <div class="name">By Username, LowCode- Jul 2, 2024</div>
+                                        </div>
+                                    </div>
+                                </div>                       
                             </div>                            
                         </div>
                     </div>
