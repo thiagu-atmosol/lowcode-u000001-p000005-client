@@ -23,7 +23,7 @@
 }
 .blog-listing-v3 .blog-listing-box {
   background-color: var(--white);
-  margin-bottom: 30px;
+  height: 100%;
   border-radius: var(--size-base);
   --webkit-border-radius: var(--size-base);
   --moz-border-radius: var(--size-base);
