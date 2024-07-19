@@ -1,5 +1,7 @@
 
-body{
+.blog-date, .blog-meta{
+	color: #777777
+}{
 	color: #777777 !important
 }
 
