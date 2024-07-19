@@ -58,7 +58,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv = document.querySelector('#blogInfo-36');
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 36 Div was clicked!');
-            if(true){
+            if(false){
                 blogName = ''.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv = document.querySelector('#blogInfo-38');
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 38 Div was clicked!');
-            if(true){
+            if(false){
                 blogName = ''.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
