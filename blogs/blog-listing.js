@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 6 Div was clicked!');
             if(true){
-                blogName = 'Start textile business'.replace(" ", "-").toLowerCase();
+                blogName = 'Start textile business'.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 9 Div was clicked!');
             if(true){
-                blogName = 'Gym and fitness blog part 1'.replace(" ", "-").toLowerCase();
+                blogName = 'Gym and fitness blog part 1'.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
@@ -33,7 +33,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 15 Div was clicked!');
             if(true){
-                blogName = 'black friday deals'.replace(" ", "-").toLowerCase();
+                blogName = 'black friday deals'.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 30 Div was clicked!');
             if(true){
-                blogName = 'Crypto insights and Understandings'.replace(" ", "-").toLowerCase();
+                blogName = 'Crypto insights and Understandings'.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
@@ -59,7 +59,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 36 Div was clicked!');
             if(true){
-                blogName = ''.replace(" ", "-").toLowerCase();
+                blogName = ''.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 38 Div was clicked!');
             if(true){
-                blogName = ''.replace(" ", "-").toLowerCase();
+                blogName = ''.replaceAll(" ", "-").toLowerCase();
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
