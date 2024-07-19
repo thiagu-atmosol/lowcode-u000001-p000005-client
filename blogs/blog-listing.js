@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b6.html`;
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b6.html`;
             }
 
         });
@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b9.html`;
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b9.html`;
             }
 
         });
@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b15.html`;
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b15.html`;
             }
 
         });
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b30.html`;
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b30.html`;
             }
 
         });
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b36.html`;
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b36.html`;
             }
 
         });
@@ -76,7 +76,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b38.html`;
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b38.html`;
             }
 
         });
