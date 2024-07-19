@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b6.html`;
             }
-
         });
     
         blogRepeat = document.querySelector('#blogRepeat-9');
@@ -24,7 +23,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b9.html`;
             }
-
         });
     
         blogRepeat = document.querySelector('#blogRepeat-15');
@@ -36,7 +34,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b15.html`;
             }
-
         });
     
         blogRepeat = document.querySelector('#blogRepeat-30');
@@ -48,7 +45,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b30.html`;
             }
-
         });
     
         blogRepeat = document.querySelector('#blogRepeat-36');
@@ -60,7 +56,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b36.html`;
             }
-
         });
     
         blogRepeat = document.querySelector('#blogRepeat-38');
@@ -72,7 +67,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p5b38.html`;
             }
-
         });
     
 });
