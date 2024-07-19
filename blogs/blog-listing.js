@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 6 Div was clicked!');
             if(true){
-                blogName = Start textile business;
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName.replace(" ", "-").toLowerCase()}.html`;
+                blogName = 'Start textile business'.replace(" ", "-").toLowerCase();
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b6.html`;
@@ -20,8 +20,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 9 Div was clicked!');
             if(true){
-                blogName = Gym and fitness blog part 1;
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName.replace(" ", "-").toLowerCase()}.html`;
+                blogName = 'Gym and fitness blog part 1'.replace(" ", "-").toLowerCase();
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b9.html`;
@@ -33,8 +33,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 15 Div was clicked!');
             if(true){
-                blogName = black friday deals;
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName.replace(" ", "-").toLowerCase()}.html`;
+                blogName = 'black friday deals'.replace(" ", "-").toLowerCase();
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b15.html`;
@@ -46,8 +46,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 30 Div was clicked!');
             if(true){
-                blogName = Crypto insights and Understandings;
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName.replace(" ", "-").toLowerCase()}.html`;
+                blogName = 'Crypto insights and Understandings'.replace(" ", "-").toLowerCase();
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b30.html`;
@@ -59,8 +59,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 36 Div was clicked!');
             if(true){
-                blogName = ;
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName.replace(" ", "-").toLowerCase()}.html`;
+                blogName = ''.replace(" ", "-").toLowerCase();
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b36.html`;
@@ -72,8 +72,8 @@ document.addEventListener("DOMContentLoaded", (event) => {
         blogInfoDiv.addEventListener('click', function() {
             console.log('Blog 38 Div was clicked!');
             if(true){
-                blogName = ;
-                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName.replace(" ", "-").toLowerCase()}.html`;
+                blogName = ''.replace(" ", "-").toLowerCase();
+                window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/${blogName}.html`;
             }
             else{
                 window.location.href = `https://lowcodeappsourcestore.z7.web.core.windows.net/u1p5/blogs/p1b38.html`;
